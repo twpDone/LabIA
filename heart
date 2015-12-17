@@ -1,0 +1,39 @@
+    poy=(HEIGHT/2)-32 
+    pox=(WIDTH/2)-32 
+ 
+    brick(pox,poy,img) 
+     
+    decalx=31 
+    decaly=30 
+ 
+    brick(pox+decalx,poy-decaly,img)
+    brick(pox-decalx,poy-decaly,img)
+
+    brick(pox+decalx*2,poy-decaly*2,img)
+    brick(pox-decalx*2,poy-decaly*2,img)
+    brick(pox+decalx*3,poy-decaly*2,img)
+    brick(pox-decalx*3,poy-decaly*2,img)
+    
+    brick(pox+decalx*4,poy-decaly,img)
+    brick(pox-decalx*4,poy-decaly,img)
+
+    brick(pox+decalx*5,poy,img)
+    brick(pox-decalx*5,poy,img)
+
+    brick(pox+decalx*5,poy+decaly,img)
+    brick(pox-decalx*5,poy+decaly,img)
+
+    brick(pox+decalx*4,poy+decaly*2,img)
+    brick(pox-decalx*4,poy+decaly*2,img)
+
+    brick(pox+decalx*3,poy+decaly*3,img)
+    brick(pox-decalx*3,poy+decaly*3,img)
+
+    brick(pox+decalx*2,poy+decaly*4,img)
+    brick(pox-decalx*2,poy+decaly*4,img)
+
+    brick(pox+decalx*1,poy+decaly*5,img)
+    brick(pox-decalx*1,poy+decaly*5,img)
+
+    brick(pox,poy+decaly*6,img)
+
